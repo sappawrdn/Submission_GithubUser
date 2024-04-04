@@ -17,7 +17,7 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "GITHUB_API_KEY", "\"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\"")
+
         buildConfigField("String", "BASE_URL", "\"https://api.github.com/\"")
     }
 
@@ -32,7 +32,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-            buildConfigField("String", "GITHUB_API_KEY", "\"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\"")
+            
         }
     }
     compileOptions {
